@@ -10,8 +10,8 @@ A focused 30-day plan to get ready for **Java Backend / Software Engineer** inte
 
 | Area | Target | Done | Status |
 |------|--------|------|--------|
-| DSA problems (LeetCode) | 150 | 0 | ⬜ Not started |
-| SQL problems (LeetCode SQL 50) | 50 | 0 | ⬜ Not started |
+| DSA problems (LeetCode) | 150 | 4 | 🟨 In progress |
+| SQL problems (LeetCode SQL 50) | 50 | 4 | 🟨 In progress |
 | Core Java topics | 10 | 0 | ⬜ Not started |
 | Spring Boot topics | 9 | 0 | ⬜ Not started |
 | System design topics | 18 | 0 | ⬜ Not started |
