@@ -18,3 +18,8 @@ SELECT DISTINCT author_id AS id
 FROM Views
 WHERE author_id = viewer_id
 ORDER BY id;
+
+-- LC 1683 - Invalid Tweets
+-- Key trick: CHAR_LENGTH counts characters; "more than 15" means > 15
+SELECT tweet_id FROM Tweets
+WHERE CHAR_LENGTH(content) > 15;
