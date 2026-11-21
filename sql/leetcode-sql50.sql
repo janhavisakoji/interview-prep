@@ -6,3 +6,8 @@ WHERE low_fats = 'Y' AND recyclable = 'Y';
 -- Key trick: use IS NULL, because NULL <> 2 is not true
 SELECT name FROM Customer
 WHERE referee_id <> 2 OR referee_id IS NULL;
+
+-- LC 595 - Big Countries
+-- Key trick: "at least one condition" means OR; "at least" means >=
+SELECT name, population, area FROM World
+WHERE area >= 3000000 OR population >= 25000000;
